@@ -2,7 +2,7 @@
 
 #### Challenge:1 -- Terraform code to deploy three-tier architecture on azure
 
-### What is three-tier architecture?
+#### What is three-tier architecture?
 Three-tier architecture is a well-established software application architecture that organizes applications into three logical and physical computing tiers: the presentation tier, or user interface; the application tier, where data is processed; and the data tier, where the data associated with the application is stored and managed.
 
 Terraform is an open-source infrastructure as code software tool created by HashiCorp. Users define and provision data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON.
@@ -17,9 +17,9 @@ Terraform is an open-source infrastructure as code software tool created by Hash
 
 _Note: Keep main and variable files different for each component_
 
-### Solution
+#### Solution
 
-### The Terraform resources will consists of following structure
+#### The Terraform resources will consists of following structure
 
 ```
 ├── main.tf                   // The primary entrypoint for terraform resources.
@@ -28,7 +28,7 @@ _Note: Keep main and variable files different for each component_
 ├── terraform.tfvars          // The file to pass the terraform variables values.
 ```
 
-### Module
+#### Module
 
 A module is a container for multiple resources that are used together. Modules can be used to create lightweight abstractions, so that you can describe your infrastructure in terms of its architecture, rather than directly in terms of physical objects.
 
@@ -47,7 +47,7 @@ Each module consists minimum two files: main.tf, vars.tf
 
 resourcegroup and networking modules consists of one extra file named output.tf
 
-## Deployment
+#### Deployment
 
 ### Steps
 
