@@ -2,16 +2,16 @@
 
 ## Terraform code to deploy three-tier architecture on azure
 
-## What is three-tier architecture?
+### What is three-tier architecture?
 Three-tier architecture is a well-established software application architecture that organizes applications into three logical and physical computing tiers: the presentation tier, or user interface; the application tier, where data is processed; and the data tier, where the data associated with the application is stored and managed.
 
-## What is terraform?
+### What is terraform?
 Terraform is an open-source infrastructure as code software tool created by HashiCorp. Users define and provision data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON.
 
-## Installation
+### Installation
 - [Terraform](https://www.terraform.io/downloads.html)
 
-## Problem Statement
+### Problem Statement
 
 1. One virtual network tied in three subnets.
 2. Each subnet will have one virtual machine.
@@ -21,7 +21,7 @@ Terraform is an open-source infrastructure as code software tool created by Hash
 
 _Note: Keep main and variable files different for each component_
 
-## Solution
+### Solution
 
 ### The Terraform resources will consists of following structure
 
