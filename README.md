@@ -69,3 +69,31 @@ used to apply the changes required to reach the desired state of the configurati
 
 
 ![image002](https://user-images.githubusercontent.com/48742081/212646165-51567cf9-b09a-4767-b0bf-feed74d3318d.png)
+
+
+#### Challenge 2: Azure MetaData
+
+We need to write code that will query the meta data of an instance within AWS or Azure or GCP and provide a json formatted output. 
+The choice of language and implementation is up to you.
+
+Bonus Points
+The code allows for a particular data key to be retrieved individually
+Hints
+•         Aws Documentation (https://docs.aws.amazon.com/)
+•         Azure Documentation (https://docs.microsoft.com/en-us/azure/?product=featured)
+•         Google Documentation (https://cloud.google.com/docs)
+
+
+Challenge #3
+
+We have a nested object. We would like a function where you pass in the object and a key and get back the value. 
+The choice of language and implementation is up to you.
+
+Example Inputs
+object = {“a”:{“b”:{“c”:”d”}}}
+key = a/b/c
+object = {“x”:{“y”:{“z”:”a”}}}
+key = x/y/z
+value = a
+
+
