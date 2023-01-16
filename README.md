@@ -84,7 +84,7 @@ Hints
 •         Google Documentation (https://cloud.google.com/docs)
 
 
-Challenge #3
+#### Challenge #3
 
 We have a nested object. We would like a function where you pass in the object and a key and get back the value. 
 The choice of language and implementation is up to you.
