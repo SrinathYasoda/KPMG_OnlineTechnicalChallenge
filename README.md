@@ -5,14 +5,10 @@
 ### What is three-tier architecture?
 Three-tier architecture is a well-established software application architecture that organizes applications into three logical and physical computing tiers: the presentation tier, or user interface; the application tier, where data is processed; and the data tier, where the data associated with the application is stored and managed.
 
-### What is terraform?
 Terraform is an open-source infrastructure as code software tool created by HashiCorp. Users define and provision data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON.
 
-### Installation
-- [Terraform](https://www.terraform.io/downloads.html)
 
-### Problem Statement
-
+#### Steps to follow:
 1. One virtual network tied in three subnets.
 2. Each subnet will have one virtual machine.
 3. First virtual machine -> allow inbound traffic from internet only.
