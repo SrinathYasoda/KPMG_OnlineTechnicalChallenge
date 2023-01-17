@@ -1,0 +1,9 @@
+1. Open Putty
+2. Login using public ip of Virtual Machine, username and password
+3. sudo apt-get update
+4. sudo apt install jq
+5. Use curl command to get below meta data of virtual machine and output it to metaoutput.json
+   curl -s -H Metadata:true --noproxy "*" "http://169.254.169.254/metadata/instance?api-version=2021-02-01" | jq >> metaoutput.json
+6. Use SFTP or WinScp or pscp to get file to local
+
+
