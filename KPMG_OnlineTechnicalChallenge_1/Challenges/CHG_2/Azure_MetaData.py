@@ -22,4 +22,7 @@ resource_group_name="azure_practice_test"
 vminstancedata=computeclient.virtual_machines.get(resource_group_name,vm_name)
 
 #Format the data as JSON string
-print(json.dumps(vminstancedata.as_dict(),default=str))
+#print(json.dumps(vminstancedata.as_dict(),default=str))
+
+with open('metaoutput.json', 'w') as f:
+    json.dump(vminstancedata, f)
